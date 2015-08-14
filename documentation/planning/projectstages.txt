@@ -1,0 +1,25 @@
+-> conception and planning
+  -> goals
+  -> content layout and types
+  -> technologies
+-> init
+  -> repos
+  -> documentation
+-> design
+  -> wireframes
+  -> high fidelity preview
+  -> working html preview
+-> review
+  -> design is ok?
+  -> goals are covered?
+  -> do we really need all of it? (per page and per element)
+-> build
+  -> hosting & domain
+  -> wordpress install
+  -> pure html to wordpress
+-> live test
+  -> browser compatibility
+    -> mobile
+    -> desctop
+-> acceptance
+-> go-live

@@ -1,0 +1,49 @@
+-> common
+  -> header
+    -> horizontal nav
+    -> social
+    -> search
+    -> language
+    -> page logo/title
+  -> body
+    -> content
+    -> sidebar
+      -> welcome
+      -> subscribe
+      -> popupar / suggestions / filters
+  -> footer
+    -> popular posts
+    -> comments
+    -> copyright / credits
+-> custom per page
+  -> home
+    -> content
+      -> recipe list
+      -> breadcrumbs
+    -> sidebar (common)
+  -> about
+    -> content
+      -> info
+    -> sidebar (common) // NOTE: can be removed for a full page design
+  -> recipes
+    -> content
+      -> recipe list (based on fiter?)
+    -> sidebar (common)
+      -> filters
+        -> alphabetical
+        -> categories
+        -> ingredients
+  -> tips
+    -> content
+      -> tip list
+      -> breadcrumbs
+    -> sidebar (common)
+      -> filters
+  -> contacts
+    -> content
+      -> contact form
+    -> sidebar (common) // NOTE: can be removed for a full page design
+  -> work with me
+    -> content
+      -> present possible services and a call to action
+    -> sidebar (common) // NOTE: can be removed for a full page design
