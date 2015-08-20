@@ -1,25 +1,30 @@
 -> conception and planning
   -> goals
+    Clean and simple food oriented blog.
   -> content layout and types
   -> technologies
+    -> mdl
+    -> css
+    -> js
+    -> html
 -> init
-  -> repos
+  -> repos -> done
   -> documentation
--> design
+-> design::20-28.07
   -> wireframes
   -> high fidelity preview
   -> working html preview
--> review
+-> review::29.07
   -> design is ok?
   -> goals are covered?
   -> do we really need all of it? (per page and per element)
--> build
+-> build::31.07-11.08
   -> hosting & domain
   -> wordpress install
   -> pure html to wordpress
--> live test
+-> live test 12-14.08
   -> browser compatibility
     -> mobile
     -> desctop
--> acceptance
--> go-live
+-> acceptance 15.08
+-> go-live 18.08
