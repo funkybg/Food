@@ -11,15 +11,25 @@ body {
 /*links*/
 .mdl-layout__header-row .mdl-navigation__link {
   border-bottom: 3px solid transparent;
+  opacity: 0.75;
 }
 .mdl-layout__header-row .mdl-navigation__link:hover {
+  opacity: 1;
+}
+.mdl-navigation__link.active-main {
   border-bottom-color: #FF4081;
 }
-.mdl-layout__drawer .mdl-navigation__link:hover {
+.mdl-navigation__link.active-side {
   border-left: 3px solid #FF4081;
 }
+.mdl-layout__drawer-button {
+  opacity: 0.75;
+}
 .mdl-layout__drawer-button:hover {
-  color: #FF4081;
+  opacity: 1;
+}
+.link__collections {
+  text-decoration: none;
 }
 .button__pagination-text {
   color: #666666;
@@ -27,6 +37,11 @@ body {
 }
 .button__pagination-arrow {
   border-radius: 100%;
+}
+.navigation__filter {
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
 }
 /*Modules*/
 /*Modules: card*/
@@ -37,8 +52,11 @@ body {
   max-height: 400px;
   overflow: hidden;
 }
+.link__collections .mdl-card__media {
+  max-height: 160px;
+  overflow: hidden;
+}
 /*Modules: card bio*/
-
 .card__bio .mdl-card__media {
   background-color: #ffffff;
   margin-left: auto;
@@ -65,6 +83,16 @@ body {
 }
 .caption-subheading {
   padding-top: 0.5em;
+}
+/*Modules: card collection*/
+.link__collections {
+  border-bottom: 3px solid transparent;
+}
+.link__collections:hover {
+  border-bottom-color: #FF4081;
+}
+.recipes__divider {
+  width: 100%;
 }
 
 /*Content*/
