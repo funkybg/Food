@@ -1,4 +1,7 @@
 /*Text*/
+body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
 .text__secondary {
   color: #727272;
 }
@@ -17,6 +20,13 @@
 }
 .mdl-layout__drawer-button:hover {
   color: #FF4081;
+}
+.button__pagination-text {
+  color: #666666;
+  text-decoration: none;
+}
+.button__pagination-arrow {
+  border-radius: 100%;
 }
 /*Modules*/
 /*Modules: card*/
@@ -40,9 +50,6 @@
   border-radius: 100%;
   overflow: hidden;
   width: 120px;
-}
-.vertical_spacer {
-  height: 90%;
 }
 .bio__divider {
   width: 60%;
