@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TODO">
+    <meta name="keywords" content="TODO">
+    <meta name="author" content="TODO">
+    <meta name="copyright" content="TODO"/>
+    <link type="text/plain" rel="author" href="http://TODO/humans.txt">
+    <!-- LOCALIZE -->
+    <title>My little kitchen | Recipes: category</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.lime-pink.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts and icons -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin,cyrillic" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div class="mdl-layout__container">
+      <!-- Header -->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">My little kitchen</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation mdl-layout--large-screen-only custom-header__nav">
+            <!-- LOCALIZE -->
+              <a class="mdl-navigation__link" href="index.html">НАЧАЛО</a>
+              <a class="mdl-navigation__link active-main" href="recipes.html">РЕЦЕПТИ</a>
+              <a class="mdl-navigation__link" href="">ТРИКОВЕ</a>
+              <a class="mdl-navigation__link" href="">ЗА МЕН</a>
+              <a class="mdl-navigation__link" href="">КОНТАКТИ</a>
+              <a class="mdl-navigation__link" href="">РАБОТЕТЕ С МЕН</a>
+            </nav>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+        <!-- LOCALIZE -->
+          <span class="mdl-layout-title">My little kitchen</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">НАЧАЛО</a>
+            <a class="mdl-navigation__link active-side" href="recipes.html">РЕЦЕПТИ</a>
+            <a class="mdl-navigation__link" href="">ТРИКОВЕ</a>
+            <a class="mdl-navigation__link" href="">ЗА МЕН</a>
+            <a class="mdl-navigation__link" href="">КОНТАКТИ</a>
+            <a class="mdl-navigation__link" href="">РАБОТЕТЕ С МЕН</a>
+          </nav>
+          <!-- Card: bio -->
+          <div class="mdl-grid">
+            <div class="card__bio mdl-cell mdl-cell--12-col mdl-cell--bottom">
+              <div class="mdl-card__media">
+                <img src="images/bio.jpg" alt="TODO">
+              </div>
+              <div class="mdl-typography--text-center">
+                <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Адриана Мартева</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Content -->
+      <!-- Main content -->
+        <main class="mdl-layout__content">
+          <!-- Grid -->
+          <div class="mdl-grid content mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+          <!-- Modules: caption -->
+          <div class="mdl-cell mdl-cell--12-col mdl-layout--large-screen-only caption__reclist">
+          <!-- LOCALIZE -->
+            <div class="mdl-typography--font-light mdl-typography--display-1 mdl-typography--text-center">
+              <span>Предястия и салати - mobile</span>
+            </div>
+          </div>
+          <!-- Modules: card -->
+          <!-- Card: recipes first -->
+            <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--8-col-desktop mdl-shadow--2dp">
+              <div class="mdl-card__media">
+                <img src="images/IMGP0947.jpg" alt="TODO">
+              </div>
+              <div class="mdl-card__title">
+              <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Име на рецептата в категория</h2>
+                <div class="mdl-layout-spacer"></div>
+                <!-- Card buttons -->
+                <div class="card__buttons">
+                  <button id="postnumlikebtn" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent">
+                    <i class="material-icons">&#xE87E;</i>
+                  </button>
+                  <!-- LOCALIZE -->
+                  <div class="mdl-tooltip mdl-tooltip--large" for="postnumlikebtn">
+                    Харесва ми!
+                  </div>
+                </div>
+                <button id="postnumsocialbtn" class="mdl-button mdl-js-button mdl-button--icon text__secondary">
+                  <i class="material-icons">&#xE80D;</i>
+                </button>
+                <!-- LOCALIZE -->
+                <div class="mdl-tooltip mdl-tooltip--large" for="postnumsocialbtn">
+                  Споделяне
+                </div>
+                <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" for="postnumsocialbtn">
+                  <li class="mdl-menu__item">Some Action</li>
+                  <li class="mdl-menu__item">Another Action</li>
+                  <li disabled class="mdl-menu__item">Disabled Action</li>
+                  <li class="mdl-menu__item">Yet Another Action</li>
+                </ul>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--lime-800">
+                  КЪМ РЕЦЕПТАТА
+                </a>
+              </div>
+            </div>
+            <!-- Card: bio -->
+            <div class="card__bio mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone">
+              <div class="mdl-card__media">
+                <img src="images/bio.jpg" border="0" alt="TODO">
+              </div>
+              <div class="mdl-card__title mdl-typography--text-center">
+                <div class="mdl-layout-spacer"></div>
+              <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Адриана Мартева - desktop</h2>
+                <div class="mdl-layout-spacer"></div>
+              </div>
+              <hr class="bio__divider">
+              <div class="mdl-card__subtitle-text mdl-typography--text-center">
+                фотограф и запален готвач
+              </div>
+              <div class="mdl-card__supporting-text mdl-typography--text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--lime-800">
+                  повече за мен
+                </a>
+                <button id="biosocialbtn" class="mdl-button mdl-js-button mdl-button--icon text__secondary bio__button">
+                  <i class="material-icons">&#xE80D;</i>
+                </button>
+              </div>
+            </div>
+            <!-- Card: recipes -->
+            <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--4-col-desktop mdl-shadow--2dp">
+              <div class="mdl-card__media">
+                <img src="images/IMGP0947.jpg" alt="TODO">
+              </div>
+              <div class="mdl-card__title">
+              <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Име на рецептата в категория</h2>
+                <div class="mdl-layout-spacer"></div>
+                <!-- Card buttons -->
+                <div class="card__buttons">
+                  <button id="postnumlikebtn" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent">
+                    <i class="material-icons">&#xE87E;</i>
+                  </button>
+                  <!-- LOCALIZE -->
+                  <div class="mdl-tooltip mdl-tooltip--large" for="postnumlikebtn">
+                    Харесва ми!
+                  </div>
+                </div>
+                <button id="postnumsocialbtn" class="mdl-button mdl-js-button mdl-button--icon text__secondary">
+                  <i class="material-icons">&#xE80D;</i>
+                </button>
+                <!-- LOCALIZE -->
+                <div class="mdl-tooltip mdl-tooltip--large" for="postnumsocialbtn">
+                  Споделяне
+                </div>
+                <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" for="postnumsocialbtn">
+                  <li class="mdl-menu__item">Some Action</li>
+                  <li class="mdl-menu__item">Another Action</li>
+                  <li disabled class="mdl-menu__item">Disabled Action</li>
+                  <li class="mdl-menu__item">Yet Another Action</li>
+                </ul>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--lime-800">
+                  КЪМ РЕЦЕПТАТА
+                </a>
+              </div>
+            </div>
+            <!-- Card: recipes -->
+            <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--4-col-desktop mdl-shadow--2dp">
+              <div class="mdl-card__media">
+                <img src="images/IMGP0947.jpg" alt="TODO">
+              </div>
+              <div class="mdl-card__title">
+              <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Име на рецептата в категория</h2>
+                <div class="mdl-layout-spacer"></div>
+                <!-- Card buttons -->
+                <div class="card__buttons">
+                  <button id="postnumlikebtn" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent">
+                    <i class="material-icons">&#xE87E;</i>
+                  </button>
+                  <!-- LOCALIZE -->
+                  <div class="mdl-tooltip mdl-tooltip--large" for="postnumlikebtn">
+                    Харесва ми!
+                  </div>
+                </div>
+                <button id="postnumsocialbtn" class="mdl-button mdl-js-button mdl-button--icon text__secondary">
+                  <i class="material-icons">&#xE80D;</i>
+                </button>
+                <!-- LOCALIZE -->
+                <div class="mdl-tooltip mdl-tooltip--large" for="postnumsocialbtn">
+                  Споделяне
+                </div>
+                <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" for="postnumsocialbtn">
+                  <li class="mdl-menu__item">Some Action</li>
+                  <li class="mdl-menu__item">Another Action</li>
+                  <li disabled class="mdl-menu__item">Disabled Action</li>
+                  <li class="mdl-menu__item">Yet Another Action</li>
+                </ul>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--lime-800">
+                  КЪМ РЕЦЕПТАТА
+                </a>
+              </div>
+            </div>
+            <!-- Card: recipes -->
+            <div class="mdl-card mdl-cell mdl-cell--12-col mdl-cell--4-col-desktop mdl-shadow--2dp">
+              <div class="mdl-card__media">
+                <img src="images/IMGP0947.jpg" alt="TODO">
+              </div>
+              <div class="mdl-card__title">
+              <!-- LOCALIZE -->
+                <h2 class="mdl-card__title-text">Име на рецептата в категория</h2>
+                <div class="mdl-layout-spacer"></div>
+                <!-- Card buttons -->
+                <div class="card__buttons">
+                  <button id="postnumlikebtn" class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent">
+                    <i class="material-icons">&#xE87E;</i>
+                  </button>
+                  <!-- LOCALIZE -->
+                  <div class="mdl-tooltip mdl-tooltip--large" for="postnumlikebtn">
+                    Харесва ми!
+                  </div>
+                </div>
+                <button id="postnumsocialbtn" class="mdl-button mdl-js-button mdl-button--icon text__secondary">
+                  <i class="material-icons">&#xE80D;</i>
+                </button>
+                <!-- LOCALIZE -->
+                <div class="mdl-tooltip mdl-tooltip--large" for="postnumsocialbtn">
+                  Споделяне
+                </div>
+                <ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect" for="postnumsocialbtn">
+                  <li class="mdl-menu__item">Some Action</li>
+                  <li class="mdl-menu__item">Another Action</li>
+                  <li disabled class="mdl-menu__item">Disabled Action</li>
+                  <li class="mdl-menu__item">Yet Another Action</li>
+                </ul>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color-text--lime-800">
+                  КЪМ РЕЦЕПТАТА
+                </a>
+              </div>
+            </div>
+            <nav class="mdl-navigation mdl-cell mdl-cell--12-col pagination">
+              <!-- LOCALIZE -->
+              <a href="TODO.html" class="button__pagination-text mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" title="TODO">
+                <i class="material-icons">&#xE5C4;</i>
+              </a>
+              <div class="mdl-layout-spacer"></div>
+              <ul>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">1</a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">2</a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">3</a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href=""><i class="material-icons">&#xE5D3;</i></a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">5</a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">6</a></li>
+                <li><a class="pagination-list mdl-button mdl-js-button mdl-js-ripple-effect" href="">7</a></li>
+              </ul>
+              <div class="mdl-layout-spacer"></div>
+              <!-- LOCALIZE -->
+              <a href="TODO.html" class="button__pagination-text mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" title="TODO">
+                <i class="material-icons button__pagination-arrow">&#xE5C8;</i>
+              </a>
+            </nav>
+          </div>
+        </main>
+      <!-- Footer -->
+        <footer class="mld-mini-footer">
+        <!-- LOCALIZE -->
+          <div class="credits mdl-typography--text-center">copyright</div>
+        </footer>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+  </body>
+</html>

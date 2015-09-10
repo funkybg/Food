@@ -8,6 +8,13 @@ body {
 
 /*Title*/
 
+/*Images*/
+img {
+  border: none;
+}
+
+/*Rulers*/
+
 /*links*/
 .mdl-layout__header-row .mdl-navigation__link {
   border-bottom: 3px solid transparent;
@@ -34,6 +41,8 @@ body {
 .button__pagination-text {
   color: #666666;
   text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .button__pagination-arrow {
   border-radius: 100%;
@@ -48,17 +57,23 @@ body {
 .mdl-card {
   overflow: visible;
 }
+.mdl-card__media img {
+  width: 100%;
+}
 .mdl-card__media {
   max-height: 400px;
   overflow: hidden;
+  background:none;
 }
 .link__collections .mdl-card__media {
   max-height: 160px;
   overflow: hidden;
 }
 /*Modules: card bio*/
+.card__bio {
+  padding: 2em 2em 0 2em;
+}
 .card__bio .mdl-card__media {
-  background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -76,10 +91,27 @@ body {
 .bio__button {
   float: right;
 }
+/*Modules: pagination*/
+.pagination {
+  padding-top: 1em;
+}
+.pagination li {
+  display: inline;
+  list-style: none;
+}
+.pagination-list {
+  text-decoration: none;
+  color:#999;
+}
+
 /*Modules: caption*/
 .caption {
   color: #999999;
   padding:5em;
+}
+.caption__reclist {
+  color: #999999;
+  padding: 3em 0 3em 0;
 }
 .caption-subheading {
   padding-top: 0.5em;
@@ -93,6 +125,10 @@ body {
 }
 .recipes__divider {
   width: 100%;
+}
+/*Modules: footer*/
+.credits {
+  padding: 0.3em;
 }
 
 /*Content*/
